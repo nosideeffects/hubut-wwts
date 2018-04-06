@@ -13,6 +13,7 @@
     "url": "https://github.com/hubot-scripts/hubot-wwts/issues"
   },
   "dependencies": {
+    "@types/node": "^9.6.2",
     "msgpack-lite": "^0.1.26",
     "typescript": "^2.8.1"
   },
@@ -20,7 +21,6 @@
     "hubot": "2.x"
   },
   "devDependencies": {
-    "@types/node": "^9.6.2",
     "chai": "^2.1.1",
     "coffee-script": "1.6.3",
     "eslint": "^4.19.1",
