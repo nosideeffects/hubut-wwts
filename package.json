@@ -1,7 +1,7 @@
 {
   "name": "hubot-wwts",
   "description": "What would Todd say? Ask Toddbot! ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jacob Biggs <biggs.jacob@gmail.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts",
