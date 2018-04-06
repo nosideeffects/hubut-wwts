@@ -2,7 +2,7 @@
 
 What would Todd say? Ask Toddbot! 
 
-See [`src/wwts.coffee`](src/wwts.coffee) for full documentation.
+See [`src/wwts.js`](src/wwts.coffee) for full documentation.
 
 ## Installation
 
