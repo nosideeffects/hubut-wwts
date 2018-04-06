@@ -4,7 +4,8 @@
     "target": "es6",
     "sourceMap": true,
     "outDir": "./bin",
-    "allowJs": true
+    "allowJs": true,
+    "types": ["node"]
   },
   "exclude": [
     "node_modules"
