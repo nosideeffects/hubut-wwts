@@ -34,7 +34,10 @@ module.exports = function (robot) {
   // root
   robot.hear(/(wwtb?s|what would todd(bot)? say)\??/i, (response) => {
     const users = getUsers();
-    let sample = LSTM.sample();
+    let sample;
+    do {
+      sample = LSTM.sample().trim();
+    } while (sample.length < 1);
 
     while (sample.indexOf('USER') > -1) {
       sample = sample.replace('USER', '@' + response.random(users));
